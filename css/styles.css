@@ -14,7 +14,9 @@
     font-size: 400;
     background-color: #FFFFFF;
     color: var(--body-text);
+
   }
+
 
 .list, .list-link {
     list-style: none;
@@ -23,6 +25,45 @@
     text-decoration: none;
   }
   
+.header {
+    width: 1440px;
+    height: 72px;}
+
+.header-container,
+.site-nav,
+.site-address,
+.nav-list,
+.address-list
+ {
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+
+.site-nav {
+    padding-left: 156px;}
+
+.address-list {
+    margin-right: 156px;
+}
+
+.nav-list {margin-left: 76px;}
+.nav-list .header-item + .header-item {
+    margin-left: 40px;}
+
+.menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;}
+
+
+.address-list .header-item + .header-item {
+    margin-left: 40px;}
+
+.site-address {
+    margin-left: auto;
+}
+ 
+
 .logo {
     text-decoration: none;
     font-family: 'Raleway';
@@ -34,6 +75,7 @@
     text-transform: uppercase;
     color: var(--site-primary);
 }
+
 .logo-firstcolor {
       font-family: 'Raleway';
       font-style: normal;
@@ -84,6 +126,8 @@
 /*-----------HERO--------------*/
 .hero {
     background-color: var(--site-primary);
+    height: 600px;
+    width: 1440px;
 }
 
 .hero-primary-heading {
@@ -167,9 +211,6 @@
 }
 /*-------------Hero------------*/
 
-.hero-item {
-
-}
 .hero-item-heading {
     font-weight: 500;
     font-size: 20px;
