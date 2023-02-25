@@ -130,6 +130,11 @@
     width: 1440px;
 }
 
+.container-hero {
+    display: block;
+}
+
+
 .hero-primary-heading {
     font-weight: 700;
     font-size: 56px;
