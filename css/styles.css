@@ -25,6 +25,7 @@
     color: var(--body-text);
   }
 
+ 
   h3,
   p {
       margin: 0;
@@ -38,7 +39,7 @@
 .list, .list-link {
     list-style: none;
   }
-  .link, .list-link{
+.link, .list-link{
     text-decoration: none;
   }
   
@@ -53,7 +54,11 @@
     align-items: center;
 }
 
-.nav-list {margin-left: 76px;}
+.header-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.nav-list {margin-left: 36px;}
 .nav-list .header-item + .header-item {
     margin-left: 40px;}
 
@@ -80,6 +85,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--site-primary);
+    
 }
 
 .logo-firstcolor {
@@ -312,7 +318,7 @@ background-color: var(--WHITE);
     
 }
 
-h3, p {margin: 0;}
+
 
 .card-content {
 padding-top: 32px;
