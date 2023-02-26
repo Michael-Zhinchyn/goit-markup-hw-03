@@ -8,10 +8,14 @@
     --btn-border: #E7E9FC;
     --WHITE: #FFFFFF;
     --btn-back: #F4F4FD;
-    --basic-margin: 24px
+    --basic-margin: 24px;
   }
 
-  img {display: block;}
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
 
   body {
     font-family: "Roboto";
@@ -19,9 +23,12 @@
     font-size: 400;
     background-color: #FFFFFF;
     color: var(--body-text);
-
   }
 
+  h3,
+  p {
+      margin: 0;
+  }
     .container {
     width: 1158px;
     padding: 0 15px;
@@ -127,7 +134,9 @@
 gap: var(--basic-margin);
 justify-content: center;
 padding-top: 96px;
+padding-left: 0px;
 padding-bottom: 72px;
+margin-bottom: 0px;
 }
 
 
@@ -261,15 +270,14 @@ background-color: var(--WHITE);
 }
 
 .filter-btn{
-    font-family: inherit;
-    width: 116px;
-    height: 48px;
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    text-align: center;
     background: var(--btn-back);
-
     border: 1px solid 
     var(--btn-border);
     border-radius: 4px;
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -291,7 +299,28 @@ background-color: var(--WHITE);
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: var(--basic-margin);
+    margin-top: calc(-2 * var(--basic-margin));
+    margin-left: calc(-1 * var(--basic-margin));
+    padding-bottom: 120px;
+}
+
+.card-set > .card-item {
+    flex-basis: calc(100% / 3 - 24px);
+    margin-top: calc(2 * var(--basic-margin));
+    margin-left: var(--basic-margin);
+    
+    
+}
+
+h3, p {margin: 0;}
+
+.card-content {
+padding-top: 32px;
+padding-bottom: 32px;
+
+border-left: 1px solid var(--btn-border);
+border-right: 1px solid var(--btn-border);
+border-bottom: 1px solid var(--btn-border);;
 }
 /*-------------Hero------------*/
 
@@ -301,6 +330,17 @@ background-color: var(--WHITE);
     line-height: 1.2;
     color: var(--site-primary);
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.team {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.card-heading {
+    text-align: left;
+    padding-left: 16px;
+    padding-bottom: 8px;
 }
 
 .hero-item-content {
@@ -308,6 +348,13 @@ background-color: var(--WHITE);
     line-height: 1.5;
     color: var(--body-text);
     text-align: center;
+
+}
+
+.card-item-content {
+    text-align: left;
+    padding-left: 16px;
+
 }
 
 .footer-content {
