@@ -1,6 +1,4 @@
 
-
- 
   
   :root {
     --site-primary: #2E2F42;
@@ -10,7 +8,10 @@
     --btn-border: #E7E9FC;
     --WHITE: #FFFFFF;
     --btn-back: #F4F4FD;
+    --basic-margin: 24px
   }
+
+  img {display: block;}
 
   body {
     font-family: "Roboto";
@@ -138,13 +139,12 @@
     color: var(--WHITE);
     width: 496px;
     height: 120px;
-    box-sizing: border-box;
+    
     margin-top: 0px;
     margin-bottom: 48px;
     padding-top: 188px;
     margin-left: 472px;
     text-align: center;
-    
 }
 
 .btn {
@@ -182,11 +182,52 @@
     overflow: hidden;
 }
 
-.features-list {display:flex}
+.features {
+    padding-top: 120px;
+    padding-right: 0px;
+}
+
+.features-list {
+    display: flex;
+    gap: var(--basic-margin);
+    margin: 0px;
+    }
+    
+
+.features-heading {
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+.features-text {
+    width: 264px;
+    height: 72px;
+    margin: 0;
+}
 
 .hero-secondary {
     background: var(--btn-back);
+    width: 1440px;
+    height: 732px;
 }
+
+.hero-team {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: var(--basic-margin);
+    margin-top: 72px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+.team-item {
+background-color: var(--WHITE);
+}
+
+
 .hero-secondary-heading {
     font-weight: 700;
     font-size: 36px;
@@ -195,7 +236,15 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--site-primary);
+    padding-top: 120px;
+    margin: 0;
+}
 
+.doing-pictures {
+    display:flex;
+    gap: var(--basic-margin);
+    margin-top: 72px;
+    margin-bottom: 120px;
 }
 
 .filter-btn{
@@ -230,12 +279,14 @@
     font-size: 20px;
     line-height: 1.2;
     color: var(--site-primary);
+    text-align: center;
 }
 
 .hero-item-content {
     font-size: 16px;
     line-height: 1.5;
     color: var(--body-text);
+    text-align: center;
 }
 
 .footer-content {
@@ -245,8 +296,14 @@
     color: var(--btn-border);
 }
 
-.footer {
+.container-footer {
     background-color: var(--site-primary);
+    width: 1440px;
+    height: 310px;
+    padding-top: 100px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
+    padding-left: 156px;
 }
 .logo-footer {
     text-decoration: none;
@@ -259,4 +316,5 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
