@@ -1,3 +1,7 @@
+
+
+ 
+  
   :root {
     --site-primary: #2E2F42;
     --body-text: #434455;
@@ -30,7 +34,6 @@
     text-decoration: none;
   }
   
-
 
 .header-container,
 .site-nav,
@@ -119,29 +122,28 @@
     color: var(--body-text);
 }
 /*-----------HERO--------------*/
+
 .container-hero {
-    background-color: var(--site-primary);
-    height: 600px;
     width: 1440px;
-    top: 72px;
-    
+    height: 600px;
+    background-color: var(--site-primary);
 }
 
-
 .hero-primary-heading {
+    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--WHITE);
     width: 496px;
-    height: 128px;
-
-    display: block;
+    height: 120px;
+    box-sizing: border-box;
     margin-top: 0px;
-    margin-right: 472px;
-    margin-left: 472px;
+    margin-bottom: 48px;
     padding-top: 188px;
+    margin-left: 472px;
+    text-align: center;
     
 }
 
@@ -156,11 +158,10 @@
     color: var(--WHITE);
     cursor: pointer;
 
-    display: block;
     width: 169px;
     height: 56px;
-    margin-top: 188px;
-    margin-left: 635px;
+    margin-top: 120px;
+    margin-left: 636px;
    
 
 }
@@ -177,9 +178,11 @@
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
+
+.features-list {display:flex}
 
 .hero-secondary {
     background: var(--btn-back);
