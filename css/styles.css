@@ -25,7 +25,8 @@
     color: var(--body-text);
   }
 
- 
+  ul,
+  li,
   h3,
   p {
       margin: 0;
@@ -56,10 +57,12 @@
 
 
 .nav-list {margin-left: 36px;}
+
 .nav-list .header-item + .header-item {
     margin-left: 40px;}
 
 .menu-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;}
 
@@ -154,6 +157,7 @@ margin-bottom: 0px;
 .container-hero {
     width: 1440px;
     height: 600px;
+    padding-top: 188px;
     background-color: var(--site-primary);
 }
 
@@ -173,7 +177,6 @@ margin-bottom: 0px;
 
 }
 
-.hero {padding-top: 188px;}
 
 .btn {
     display: block;
