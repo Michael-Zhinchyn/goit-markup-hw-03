@@ -27,6 +27,8 @@
 
   ul,
   li,
+  h1,
+  h2,
   h3,
   p {
       margin: 0;
@@ -156,7 +158,6 @@ margin-bottom: 0px;
 
 .hero {
     height: 600px;
-    padding-top: 188px;
     background-color: var(--site-primary);
 }
 
@@ -169,11 +170,10 @@ margin-bottom: 0px;
     color: var(--WHITE);
     width: 496px;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 48px;
+    padding-top: 188px;
+    padding-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 
@@ -210,23 +210,21 @@ margin-bottom: 0px;
     overflow: hidden;
 }
 
-.features {
-    padding-top: 120px;
-    padding-right: 0px;
-}
 
 .features-list {
     display: flex;
     gap: var(--basic-margin);
     margin: 0px;
+    padding-top: 120px;
     padding-left: 0px;
     }
+
     
 
 .section-team {
-    margin-top: 120px;
     background: var(--btn-back);
-    height: 732px;}
+    height: 732px;
+}
 
 .hero-team {
     padding-top: 120px;
@@ -236,10 +234,9 @@ margin-bottom: 0px;
 .team-list {
     display: flex;
     gap: var(--basic-margin);
-    margin-top: 72px;
     margin-bottom: 0px;
     justify-content: center;
-    padding: 0;
+    
 }
 
 .team-item {
@@ -258,14 +255,15 @@ background-color: var(--WHITE);
     text-transform: capitalize;
     color: var(--site-primary);
     padding-top: 120px;
+    padding-bottom: 72px;
     margin: 0;
 }
 
 .doing-pictures {
     display:flex;
     gap: var(--basic-margin);
-    margin-top: 72px;
     padding-left: 0px;
+    padding-bottom: 120px;
 }
 
 .filter-btn {
@@ -370,6 +368,7 @@ background-color: var(--WHITE);
 }
 
 .footer-text {
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -377,14 +376,10 @@ background-color: var(--WHITE);
     margin-top: 16px;
 }
 
-.footer-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 264px;
-}
-
 .footer {
     background-color: var(--site-primary);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-footer {
