@@ -154,8 +154,7 @@ margin-bottom: 0px;
 
 /*-----------HERO--------------*/
 
-.container-hero {
-    width: 1440px;
+.hero {
     height: 600px;
     padding-top: 188px;
     background-color: var(--site-primary);
@@ -224,11 +223,10 @@ margin-bottom: 0px;
     }
     
 
-.hero-secondary {
+.section-team {
+    margin-top: 120px;
     background: var(--btn-back);
-    width: 1440px;
-    height: 732px;
-}
+    height: 732px;}
 
 .hero-team {
     padding-top: 120px;
@@ -267,11 +265,10 @@ background-color: var(--WHITE);
     display:flex;
     gap: var(--basic-margin);
     margin-top: 72px;
-    margin-bottom: 120px;
     padding-left: 0px;
 }
 
-.filter-btn{
+.filter-btn {
     display: flex;
     padding: 12px 24px;
     align-items: center;
@@ -297,8 +294,8 @@ background-color: var(--WHITE);
 }
 
 .portfolio {
-padding-top: 96px;
-padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .card-set {
@@ -307,7 +304,6 @@ padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--basic-margin));
-
 }
 
 .card-set > .card-item {
@@ -318,12 +314,12 @@ padding-bottom: 120px;
 
 
 .card-content {
-padding-top: 32px;
-padding-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
-border-left: 1px solid var(--btn-border);
-border-right: 1px solid var(--btn-border);
-border-bottom: 1px solid var(--btn-border);;
+    border-left: 1px solid var(--btn-border);
+    border-right: 1px solid var(--btn-border);
+    border-bottom: 1px solid var(--btn-border);;
 }
 /*-------------Hero------------*/
 
@@ -385,12 +381,10 @@ border-bottom: 1px solid var(--btn-border);;
     padding-top: 100px;
     padding-bottom: 100px;
     width: 264px;
-    margin-left: 156px;
 }
 
 .footer {
     background-color: var(--site-primary);
-    width: 1440px;
 }
 
 .logo-footer {
