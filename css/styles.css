@@ -152,8 +152,6 @@ margin-bottom: 0px;
 }
 
 
-
-
 /*-----------HERO--------------*/
 
 .hero {
@@ -191,8 +189,8 @@ margin-bottom: 0px;
     width: 169px;
     height: 56px;
     margin: 0 auto;
-    
 }
+
 .btn:hover {
     background: var(--btn-hover-active);
 }
@@ -220,7 +218,6 @@ margin-bottom: 0px;
     }
 
     
-
 .section-team {
     background: var(--btn-back);
     height: 732px;
@@ -237,7 +234,6 @@ margin-bottom: 0px;
     margin-bottom: 0px;
     padding: 0;
     justify-content: center;
-    
 }
 
 .team-item {
@@ -282,6 +278,7 @@ background-color: var(--WHITE);
     color: var(--btn-primary);
 }
 
+
 .filter-btn:hover,
 .filter-btn:focus { 
     background-color: var(--btn-hover-active);
@@ -320,7 +317,10 @@ background-color: var(--WHITE);
     border-right: 1px solid var(--btn-border);
     border-bottom: 1px solid var(--btn-border);;
 }
+
+
 /*-------------Hero------------*/
+
 
 .hero-item-heading {
     font-weight: 500;
@@ -365,7 +365,6 @@ background-color: var(--WHITE);
 .card-item-content {
     text-align: left;
     padding-left: 16px;
-
 }
 
 .footer-text {
