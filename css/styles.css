@@ -285,7 +285,14 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 .filter-btn:hover,
 .filter-btn:focus { 
     background-color: var(--btn-hover-active);
-    color: var(--WHITE);  
+    color: var(--WHITE);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
+    
+        box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+        border-color: var(--btn-hover-active);
+  
 }
 
 .filter-btn {
