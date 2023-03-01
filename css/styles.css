@@ -116,7 +116,9 @@
 
 .header {
     border-bottom:
-            1px solid var(--btn-border);
+    1px solid var(--btn-border);
+    max-width: 1440px;
+    margin: 0 auto;    
 }
 
 .menu-link {
